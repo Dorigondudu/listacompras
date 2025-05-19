@@ -62,7 +62,7 @@ window.logout = async function () {
 getUser().then(carregarLista)
 
 document.addEventListener('keydown'), function (event) {
-    if (event.key === 'Enter') {
-      adicionarItem()
-      }
-    }
+  if (event.key === 'Enter') {
+    adicionarItem()
+  }
+}
