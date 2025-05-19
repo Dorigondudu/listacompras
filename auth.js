@@ -27,7 +27,7 @@ window.cadastro = async function () {
     alert('Cadastro realizado! Faça login.')
   }
 }
-document.addEventListener('keydown'), function (event) {
+document.addEventListener('keydown', function (event) {
     if (event.key === 'Enter') {
       const caminho = window.location.pathname
       if (caminho.includes('login')) {
@@ -36,4 +36,4 @@ document.addEventListener('keydown'), function (event) {
         cadastro()
       }
     }
-}
+})
