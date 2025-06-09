@@ -33,7 +33,7 @@ padding: 20px;
 .container{
     background: var(--cor-bg);
     padding: clamp(2rem, 5vw, 3rem);
-    border-radius: var(--cor-sombra);
+    border-radius: var(--raio);
     width: 100%;
     max-width: 400px;
     text-align: center;
@@ -57,7 +57,7 @@ input{
     width: 100%;
     padding: 14px;
     margin: 10px 0;
-    border-radius: var(--cor-sombra);
+    border-radius: var(--raio);
     font-size: 1rem;
     transition: var(--transition);
 
@@ -73,8 +73,6 @@ input.focus{
     flex-direction: column;
     gap: 12px;
     margin-top: 20px;
-        border: none;
-    border-radius: var(--raio);
 }
 button{
     padding: 12px;
